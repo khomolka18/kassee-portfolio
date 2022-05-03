@@ -1,0 +1,188 @@
+//import extranal syles
+@import "main.css"
+@import "normalize.css"
+
+//varibles 
+$font-headlines: 'SpaceMono-Bold', monospace
+$font-body: 'Space Mono', monospace
+$color-font: rgb(255,255,255,.9)
+$color-bg: #171725
+$width-body: 1440px
+
+
+body
+    background-color: $color-bg
+    color: $color-font
+    margin: 0 auto
+    max-width: $width-body
+    overflow-x: hidden
+    position: relative
+    opacity: 0
+
+nav
+    position: relative
+    border: 1px solid transparent
+
+html.wf-loading
+    opacity: 0
+
+section
+    margin: 0px auto
+    padding: 0px
+    // border: 1px solid red
+    min-height: 450px
+    height: auto
+    z-index: 10
+    &#intro
+        margin: 315px 0 0 215px
+
+
+h1
+    font-family: $font-headlines
+    font-size: 55px
+    margin: 0 0 20px 0
+    padding: 0 0 0 0
+
+p 
+    font-family: $font-headlines
+    font-size: 30px
+    margin: 0 0 20px 0
+    padding: 0 0 0 0
+
+#logo
+    font-family: $font-headlines
+    font-size: 20px
+    margin: 30px 0 30px 30px
+
+#contact
+    position: absolute
+    right: 10%
+    top: 30px
+    width: 32px
+    height: 32px
+    cursor: pointer
+    background-image: url("../img/contact-icon.svg")
+
+#blueCircle
+    position: fixed
+    top: -43vh
+    right: -26vw
+    width: 100%
+    z-index: -10
+
+#playerWrap
+    position: absolute
+    top: -160%
+    right: -68%
+    z-index: -1
+    width: 200%
+
+#introVideo
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+#about, #LetsChat
+    margin: 315px 0 0 215px
+        // border: 1px solid red
+    #aboutWarpper, #LetsChatWrapper
+        max-width: 1004px
+        width: 100%
+        // border: 1px solid blue
+        padding: 0 0 0 100px
+        #lines
+            width: 357px
+            margin: 0 0 0px 30px
+            #blue
+                width: 65%
+                height: 5px
+                background-color: #3F98E0
+                margin: 10px 0px 0px 0px
+            #violent
+                width: 45%
+                height: 5px
+                background-color: #6D13FF
+                margin: 10px 0px 0px 0px
+            #green
+                width: 75%
+                height: 5px
+                background-color: #38F898
+                margin: 10px 0px 0px 0px
+        #aboutImage
+            width: 357px
+            height: 438px
+            background-color: #000
+            float: left
+            img
+                width: 300px
+                padding: 30px
+        #aboutCopy
+            width: 357px
+            float: left
+            margin: 0 0 0 50px
+            h1
+                font-size: 44px
+            p
+                font-size: 18px
+                font-family: 'Roboto', sans-serif
+        #LetsChatImage
+            width: 357px
+            background-color: transparent
+            float: left
+            margin-top: -50px
+        #LetsChatCopy
+            width: 357px
+            float: left
+            margin: 0 0 0 50px
+            h1
+                font-size: 44px
+                color: #FF1472
+                text-decoration: underline
+            p
+                font-size: 18px
+                font-family: 'Roboto', sans-serif
+
+#whatIdo
+    float: none
+    margin: 290px 0 0 215px
+    h1
+        font-size: 44px
+    img
+        margin-left: -40%
+    .scrollText
+        width: 100%
+        overflow: hidden
+        p
+            font-size: 18px
+            font-family: 'Roboto', sans-serif
+            text-transform: uppercase
+            color: #858592
+            white-space: nowrap
+            font-size: 50px
+
+#whatIveDone
+    margin: 290px 0 0 215px
+    h1
+        font-size: 44px
+    .tooltip 
+        text-decoration: none
+        position: relative
+        color: #8b8b92
+        margin-top: 50px
+        display: block
+        &:hover
+            color: #fff
+    .tooltip span 
+        display: none
+    .tooltip:hover span 
+        display: block
+        position: fixed
+        overflow: hidden
+    p
+        font-size: 40px
+        font-family: 'Roboto', sans-serif
+    .tooltip-span1
+        img
+            width: 746px
+            border: 1px solid red
