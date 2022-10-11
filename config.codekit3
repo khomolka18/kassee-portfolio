@@ -9,45 +9,13 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
-    "\/.editorconfig" : {
+    "\/52e80cdb3f3449c29b467302d1a30baf88fabae3\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/.editorconfig",
+      "oAP" : "\/52e80cdb3f3449c29b467302d1a30baf88fabae3\/index.html",
       "oF" : 0
-    },
-    "\/.gitattributes" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.gitattributes",
-      "oF" : 0
-    },
-    "\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.gitignore",
-      "oF" : 0
-    },
-    "\/.htaccess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/.htaccess",
-      "oF" : 0
-    },
-    "\/.vscode\/tasks.json" : {
-      "ft" : 524288,
-      "oA" : 1,
-      "oAP" : "\/.vscode\/tasks-min.json",
-      "oF" : 0,
-      "oO" : 1,
-      "oS" : 1
     },
     "\/404.html" : {
       "cB" : 0,
@@ -63,6 +31,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/browserconfig.xml",
+      "oF" : 0
+    },
+    "\/CNAME" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/CNAME",
+      "oF" : 0
+    },
+    "\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/contact.html",
       "oF" : 0
     },
     "\/css\/fonts\/LICENSE.txt" : {
@@ -439,6 +423,58 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/100DayJourney2.png" : {
+      "ft" : 32768,
+      "iS" : 93659,
+      "oA" : 0,
+      "oAP" : "\/img\/100DayJourney2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/100DayJourney3.png" : {
+      "ft" : 32768,
+      "iS" : 111573,
+      "oA" : 0,
+      "oAP" : "\/img\/100DayJourney3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/background-img.png" : {
+      "ft" : 32768,
+      "iS" : 398001,
+      "oA" : 0,
+      "oAP" : "\/img\/background-img.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/contact-icon-big-svg.png" : {
+      "ft" : 32768,
+      "iS" : 8442,
+      "oA" : 0,
+      "oAP" : "\/img\/contact-icon-big-svg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/contact-icon-big.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -469,6 +505,58 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/DEVELOPMENT.png" : {
+      "ft" : 32768,
+      "iS" : 302483,
+      "oA" : 0,
+      "oAP" : "\/img\/DEVELOPMENT.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/digital.png" : {
+      "ft" : 32768,
+      "iS" : 224549,
+      "oA" : 0,
+      "oAP" : "\/img\/digital.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/Lets-hover-image.png" : {
+      "ft" : 32768,
+      "iS" : 10187,
+      "oA" : 0,
+      "oAP" : "\/img\/Lets-hover-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/newheadshot.png" : {
+      "ft" : 32768,
+      "iS" : 495408,
+      "oA" : 0,
+      "oAP" : "\/img\/newheadshot.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/oh-hey-its-me.jpg" : {
       "ft" : 16384,
       "iS" : 31419,
@@ -482,11 +570,76 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/img\/portfolio-top-image.png" : {
+      "ft" : 32768,
+      "iS" : 1056654,
+      "oA" : 0,
+      "oAP" : "\/img\/portfolio-top-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/RESULTS.png" : {
+      "ft" : 32768,
+      "iS" : 807960,
+      "oA" : 0,
+      "oAP" : "\/img\/RESULTS.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/SOLUTION.png" : {
+      "ft" : 32768,
+      "iS" : 768680,
+      "oA" : 0,
+      "oAP" : "\/img\/SOLUTION.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/Upgrading-image.png" : {
+      "ft" : 32768,
+      "iS" : 411629,
+      "oA" : 0,
+      "oAP" : "\/img\/Upgrading-image.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/img\/whatIdo-list.png" : {
       "ft" : 32768,
       "iS" : 56613,
       "oA" : 0,
       "oAP" : "\/img\/whatIdo-list.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/img\/wordmark.png" : {
+      "ft" : 32768,
+      "iS" : 19277,
+      "oA" : 0,
+      "oAP" : "\/img\/wordmark.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -582,6 +735,22 @@
       "oO" : 1,
       "oS" : 1
     },
+    "\/password-protection.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/password-protection.html",
+      "oF" : 0
+    },
+    "\/Portfolio.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Portfolio.html",
+      "oF" : 0
+    },
     "\/robots.txt" : {
       "cB" : 0,
       "ft" : 8192,
@@ -672,6 +841,14 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/video\/circle-pw-bg.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/video\/circle-pw-bg.mp4",
+      "oF" : 0
+    },
     "\/video\/CircleSlower_1300x1300.mp4" : {
       "cB" : 0,
       "ft" : 8192,
@@ -687,6 +864,14 @@
       "oA" : 0,
       "oAP" : "\/video\/DispChrmAbb_1920x512.mp4",
       "oF" : 0
+    },
+    "\/video\/videoplayback.mp4" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/video\/videoplayback.mp4",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -697,7 +882,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 643670283.72253394,
-    "displayValue" : "html",
+    "displayValue" : "Kass_portfolio_v3",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-payne",
     "iconImageWasSetByUser" : 0

@@ -36,7 +36,6 @@
     <img src="img/digital.png">
   </div>
  -->
-
  
 <div class="mobile-video">
 
@@ -71,7 +70,10 @@
   <section id="about">
     <div id="aboutWarpper">
       <div id="aboutImage">
-        <img src="../img/newheadshot.png" alt="oh hey it's me" >
+        <div class="swapImage">
+          <img src="../img/oh-hey-its-me-v2.png" alt="oh hey it's me" >
+          <!-- <img class="aboutImage-hover" src="../img/oh-hey-its-me-v3.png" alt="oh hey it's me" > -->
+        </div>
         <div id="lines">
           <div id="blue"></div>
           <div id="violent"></div>
@@ -197,6 +199,7 @@
   
   <script src="../js/main.js"></script>
   <script src="../js/vendor/SplitText.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. --> 
   <script>
@@ -204,6 +207,27 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script>
+    document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+            document.querySelector(
+              "body").style.visibility = "hidden";
+            document.querySelector(
+              "#introVideo").style.visibility = "visible";
+
+        } else {
+
+          const myTimeout = setTimeout(myLoader, 3000);
+          function myLoader() {
+            document.querySelector(
+              "#introVideo").style.opacity = 1;
+            document.querySelector(
+              "body").style.visibility = "visible";
+              
+            }
+        }
+    };
+</script>
 </body>
 
 </html>
