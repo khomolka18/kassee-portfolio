@@ -30,12 +30,12 @@
     }
 
  </style>
-<body style="background: #000000;">
+<body style="background: #000010;">
     <!-- <body  style="background-image:url('img/background-img.png'); background-repeat:no-repeat; background-size:cover; background-position:center"> -->
     <!-- password-protection -->
 
     <div class="mobile-video">
-      <video id="blueCircles" class="video_canter" src="video/videoplayback.mp4" autoplay loop muted></video>
+      <video id="blueCircles" class="video_canter" src="video/circle-pw-bg.mp4" autoplay loop muted></video>
     </div>
   <section id="loginbox" class="password-protection">
     <div class="container">
@@ -44,7 +44,8 @@
             <h1>Welcome, internet stranger</h1>
             </div>
             <div class="input-field">
-                <input type="password" id="password">
+                <input type="password" id="password" value="" require="">
+                <!-- <img src="https://media.geeksforgeeks.org/wp-content/uploads/20210917150049/eyeslash-300x240.png" width="1.8%" height="1%" id="togglePassword"> -->
                  <button id="loginbutton" type="button">Explore
                 </button>
                 <p id="wrongPassword" style="display: none">wrong password</p>
@@ -56,11 +57,21 @@
   <!-- scripts -->
   <script src="js/main.js"></script>
   <script src="js/vendor/SplitText.min.js"></script>
-
   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
-
-
   <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+
+  <script>
+
+    function viewPassword() {
+      var x = document.getElementById("password");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
+      }
+    }
+
+  </script>
 
  <script type="text/javascript">
  "use strict";

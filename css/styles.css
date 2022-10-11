@@ -108,6 +108,13 @@ p {
     cursor: pointer;
     background-image: url(../img/contact-icon.svg);
 }
+
+/* #togglePassword {
+    margin-left: -5%;
+    display: inline;
+    vertical-align: middle;
+} */
+
 #blueCircle {
     position: absolute;
     top: -13%;
@@ -180,11 +187,44 @@ p {
   height: 415px;
   background-color: #000;
   float: left;
+  cursor: default
 }
 #about #aboutWarpper #aboutImage img, #about #LetsChatWrapper #aboutImage img, #LetsChat #aboutWarpper #aboutImage img, #LetsChat #LetsChatWrapper #aboutImage img {
   width: 88%;
   padding: 19px;
 }
+
+.swapImage {
+    position: relative;
+    max-width: 100%;
+}
+
+/* Added the second, aboutImage swap image here */
+
+
+.swapImage img.aboutImage-hover {
+    position: absolute;
+    top: -4px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.swapImage:hover img.aboutImage-hover {
+    opacity: 1;
+}
+
+/* Below code hides first image */
+
+/* .swapImage:hover img {
+    opacity: 0;
+    transition: opacity .2s;
+} */
+
 #about #aboutWarpper #aboutCopy, #about #LetsChatWrapper #aboutCopy, #LetsChat #aboutWarpper #aboutCopy, #LetsChat #LetsChatWrapper #aboutCopy {
   width: 60%;
   float: left;
@@ -580,9 +620,9 @@ div#LetsChatCopy h1 a:hover::after {
     text-decoration: none;
     padding: 0 5px;
 }
-#contact:hover {
+/* #contact:hover {
     background-image: url(../img/contact-icon-hover.svg);
-}
+} */
 #contact a {
     width: 32px;
     height: 32px;

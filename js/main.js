@@ -33,7 +33,6 @@ function politeInit(){
 
 /***************** //end of VARIABLES  *****************/
 
-
 /******************  MAIN ANIMATION  ******************/ 
 function animate() {
     const logoSplit = new SplitText(logo, {type:"words, chars"})
@@ -46,7 +45,7 @@ function animate() {
     .set(logoSplit.chars, {rotationY: 180, force3D: true, alpha: 0, y: 20}, "<")
     .set(introTextSplit1.chars, {rotationY: 180, force3D: true, alpha: 0, y: 20}, "<")
     .set(introTextSplit2.chars, {rotationY: 180, force3D: true, alpha: 0, y: 20}, "<")
-    .to(introVideo, {duration: 0.25, alpha: 0, ease:"none"}, ">4.0")
+    .to(introVideo, {duration: 0.25, alpha: 0, ease:"none"}, ">3.0")
     .from(blueCircle, {duration: 0.25, alpha: 0, ease:"none"}, ">")
     .to(logoSplit.chars, {duration: 0.25, stagger: 0.02, alpha: 1, y: 0, ease:"power4.inOut"}, ">1.0")
     .to(logoSplit.chars, {duration: 0.25, stagger: 0.02, rotationY: 360, force3D: true, ease:"power4.inOut"}, ">")
