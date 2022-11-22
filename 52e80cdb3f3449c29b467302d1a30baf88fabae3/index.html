@@ -42,7 +42,7 @@
   <video id="blueCircle" src="https://wholemilka.s3.us-west-2.amazonaws.com/CircleSlower_1300x1300.mp4" autoplay loop muted></video>
 </div>
 
-<video id="introVideo" src="https://2percentmilka.s3.us-west-2.amazonaws.com/loadingscreen_11_21_22.mp4" autoplay loop muted></video>
+<video id="introVideo" src="https://2percentmilka.s3.us-west-2.amazonaws.com/loadingscreen_11_21_22.mp4" autoplay muted></video>
 
 <!-- <div id="introVideo">
   <img src="https://urlsdemo.in/Digital-designer/img/wordmark.png">
@@ -205,6 +205,27 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script>
+    document.onreadystatechange = function() {
+        if (document.readyState !== "complete") {
+            document.querySelector(
+              "body").style.visibility = "hidden";
+            document.querySelector(
+              "#introVideo").style.visibility = "visible";
+
+        } else {
+
+          const myTimeout = setTimeout(myLoader, 3000);
+          function myLoader() {
+            document.querySelector(
+              "#introVideo").style.opacity = 1;
+            document.querySelector(
+              "body").style.visibility = "visible";
+
+            }
+        }
+    };
+</script>
 <script src="../js/main.js"></script>
 </body>
 
