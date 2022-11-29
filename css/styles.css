@@ -4,6 +4,7 @@ body {
   background-color: #171725;
   color: rgba(255, 255, 255, 0.9);
   margin: 0 auto;
+  z-index: -1;
   max-width: 1440px;
   overflow-x: hidden;
   /*position: relative;*/
@@ -132,18 +133,28 @@ p {
 }
 #introVideo {
     position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%; 
+    overflow: hidden;
+    z-index: 1;
+  }
+  #introVideo video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+  
+    /* Center the video */
+    position: absolute;
     top: 50%;
-    width: 150%;
-    /* z-index: 1; */
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: #0000008f;
-    /* width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; */
-}
+    transform: translate(-50%,-50%);
+  }
 .scrollText.hover-text {
     display: flex;
     letter-spacing: 10px;
@@ -197,6 +208,10 @@ p {
 .swapImage {
     position: relative;
     max-width: 100%;
+}
+
+#aboutImage img, #whatIdo, #whatIveDone, #LetsChat {
+    z-index: -1;
 }
 
 /* Added the second, aboutImage swap image here */
@@ -492,7 +507,6 @@ a.tooltip {
 
 div#LetsChatCopy h1 a {
     position: relative;
-    z-index: 1;
     color: #fff;
 }
 
