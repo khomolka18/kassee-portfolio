@@ -187,6 +187,25 @@ p {
     left: 50%;
     transform: translate(-50%,-50%);
   }
+  
+  @media only screen and (min-width : 320px) and (max-width : 767px) {
+  
+  #introVideo video {
+    /* Make video to at least 100% wide and tall */
+    min-width: 50%; 
+    min-height: 50%; 
+  
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: 458px;
+  
+    /* Center the video */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+}
 .scrollText.hover-text {
     display: flex;
     letter-spacing: 10px;
