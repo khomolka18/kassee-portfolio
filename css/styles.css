@@ -191,6 +191,7 @@ p {
   @media only screen and (min-width : 320px) and (max-width : 767px) {
   
   #introVideo video {
+    display: none;
     /* Make video to at least 100% wide and tall */
     min-width: 50%; 
     min-height: 50%; 
