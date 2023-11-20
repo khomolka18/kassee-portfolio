@@ -146,8 +146,8 @@ p {
 } */
 
 #blueCircle {
-    position: absolute;
-    top: -13%;
+    position: fixed;
+    top: -43%;
     width: 100%;
     right: 0vw;
     z-index: -10;
@@ -167,7 +167,7 @@ p {
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     overflow: hidden;
     z-index: 1;
     background-color: #000010;
@@ -218,7 +218,7 @@ p {
 #about #aboutWarpper, #about #LetsChatWrapper, #LetsChat #aboutWarpper, #LetsChat #LetsChatWrapper {
   max-width: 1004px;
   width: 100%;
-  padding: 0 0 0 100px;
+  padding: 0;
 }
 #about #aboutWarpper #lines, #about #LetsChatWrapper #lines, #LetsChat #aboutWarpper #lines, #LetsChat #LetsChatWrapper #lines {
   width: 357px;
@@ -318,6 +318,7 @@ p.introText2 {
 #about #aboutWarpper #aboutCopy p, #about #LetsChatWrapper #aboutCopy p, #LetsChat #aboutWarpper #aboutCopy p, #LetsChat #LetsChatWrapper #aboutCopy p {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  line-height: 24px;
 }
 #about #aboutWarpper #LetsChatImage, #about #LetsChatWrapper #LetsChatImage, #LetsChat #aboutWarpper #LetsChatImage, #LetsChat #LetsChatWrapper #LetsChatImage {
   width: 35%;
@@ -413,6 +414,7 @@ div#LetsChatCopy h1 a{
 }
 */
 
+
 div#LetsChatCopy p {
     color: #ffffff;
 }
@@ -427,7 +429,7 @@ div#LetsChatCopy p {
   position: relative;
   color: #8b8b92;
   letter-spacing: 10px;
-  margin-top: 40px;
+  margin-top: 60px;
   display: block;
 }
 #whatIveDone .tooltip:hover {
@@ -542,7 +544,7 @@ a.tooltip {
     position: absolute;
     letter-spacing: 3px;
     font-weight: 500;
-    top: 65px;
+    top: 85px;
     font-size: 15px;
     left: 35px;
     font-family: "Roboto", sans-serif;
@@ -1009,7 +1011,7 @@ span#tooltip-span4 img {
     margin: 30px 50px 30px 50px;
 }
 #blueCircle {
-    position: absolute;
+    position: fixed;
     top: -3%;
     right: 0;
     z-index: -10;
