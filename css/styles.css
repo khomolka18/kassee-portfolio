@@ -80,6 +80,7 @@ body {
 nav {
   position: relative;
   border: 1px solid transparent;
+  margin: 8px 0;
 }
 
 html.wf-loading {
@@ -89,7 +90,7 @@ html.wf-loading {
 section {
   margin: 0px auto;
   padding: 0px;
-  min-height: 400px;
+  min-height: 256px;
   height: auto;
   z-index: 10;
 }
@@ -150,6 +151,7 @@ p {
     top: -43%;
     width: 100%;
     right: 0vw;
+    height: 169vh;
     z-index: -10;
     background-color: #000010;
 
@@ -805,8 +807,8 @@ div#LetsChatCopy h1 a:hover::after {
     padding:0 10px;
 }
 #contact {
-    right: 0;
-    top: 0;
+    right: 3px;
+    top: -8px;
 }
 section#intro {
     margin: 100px 0px 0 0px;
@@ -814,7 +816,7 @@ section#intro {
         min-height: 300px;
 }
 #about, #LetsChat {
-    margin: 100px 0px 0 0px;
+    margin: -110px 0px 0 0px;
 }
 #about #aboutWarpper, #about #LetsChatWrapper, #LetsChat #aboutWarpper, #LetsChat #LetsChatWrapper {
     padding: 0 0 0 0px;
@@ -897,7 +899,7 @@ div#LetsChatImage\ {
     position: fixed;
     top: 0;
     width: 220%;
-    left: -223px;
+    left: -256px;
     z-index: -10;
 }
 #whatIveDone .tooltip span {
