@@ -347,6 +347,7 @@ div#LetsChatCopy h1 a{
 #about #aboutWarpper #LetsChatCopy p, #about #LetsChatWrapper #LetsChatCopy p, #LetsChat #aboutWarpper #LetsChatCopy p, #LetsChat #LetsChatWrapper #LetsChatCopy p {
   font-size: 18px;
   font-family: "Roboto", sans-serif;
+  line-height: 24px;
 }
 .footer-text ul li a {
     color: #ceced1;
