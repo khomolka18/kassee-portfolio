@@ -482,6 +482,7 @@ div#LetsChatCopy p {
    .LetsChatImagehover:hover > a .Lets-hover-img{
     display: block;
     cursor: pointer;
+    margin-left: 16px;
    }
    div#aboutImage:hover {
     cursor: pointer;
