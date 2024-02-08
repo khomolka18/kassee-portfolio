@@ -786,7 +786,7 @@ div#LetsChatCopy h1 a:hover::after {
         z-index: -1;
       }
       #whatIveDone .tooltip:hover span {
-        display: none !important;
+        display: none;
       }
   /* password-protection */
     .title h1 {
@@ -1148,12 +1148,6 @@ section#intro {
 }
 
   }
-
-
-
-
-
-
 
  /* What we do hover css*/
  .Journey img {
