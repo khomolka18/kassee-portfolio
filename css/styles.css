@@ -442,7 +442,7 @@ div#LetsChatCopy p {
   z-index: -1;
 }
 #whatIveDone .tooltip:hover span {
-  display: block !important;
+  display: block;
     width: 100%;
     position: absolute;
     /*left:40%;*/
