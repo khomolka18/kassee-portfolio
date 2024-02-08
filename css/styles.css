@@ -191,7 +191,6 @@ p {
   @media only screen and (min-width : 320px) and (max-width : 767px) {
   
   #introVideo video {
-    display: none;
     /* Make video to at least 100% wide and tall */
     min-width: 50%; 
     min-height: 50%; 
@@ -819,6 +818,7 @@ section#intro {
 }
 #about #aboutWarpper, #about #LetsChatWrapper, #LetsChat #aboutWarpper, #LetsChat #LetsChatWrapper {
     padding: 0 0 0 0px;
+    margin-top: 128px;
 }
 #aboutWarpper {
     display: inline-block;
@@ -871,7 +871,7 @@ a.tooltip {
     color: white !important;
 }
 img.hover {
-    margin: auto;
+    margin-bottom: 32px;
     width: 300px;
     text-align: center;
 }
@@ -894,10 +894,10 @@ div#LetsChatImage\ {
         margin: 0 0px 0 0px;
 }
 #blueCircle {
-    position: absolute;
-    top: -100px;
-    width: 100%;
-    left: 0;
+    position: fixed;
+    top: 0;
+    width: 220%;
+    left: -223px;
     z-index: -10;
 }
 #whatIveDone .tooltip span {
@@ -925,7 +925,10 @@ span#tooltip-span4 img {
 }
 #about #aboutWarpper #aboutImage img, #about #LetsChatWrapper #aboutImage img, #LetsChat #aboutWarpper #aboutImage img, #LetsChat #LetsChatWrapper #aboutImage img {
     width: 260px;
-    height: 300px;
+    height: 253px;
+}
+#about #aboutWarpper #aboutImage {
+    height: 367px;
 }
 .contact-section {
     width: 100%;
