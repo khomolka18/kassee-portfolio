@@ -434,6 +434,15 @@ div#LetsChatCopy p {
   margin-top: 60px;
   display: block;
 }
+
+.Journey .tooltip {
+    text-indent: -48px; /* Adjust this value as needed */
+}
+
+.Journey .tooltip::before {
+    content: "> ";
+  }
+
 #whatIveDone .tooltip:hover {
   color: #fff;
 }
@@ -815,7 +824,12 @@ div#LetsChatCopy h1 a:hover::after {
 }
 
 .Journey:hover h5 {
-    top: 75px;
+    display: none;
+    /* top: 50%; */
+}
+
+.Journey .tooltip {
+    text-indent: 0px;
 }
 
 #logo {
@@ -1115,7 +1129,7 @@ section#intro {
     width: 50%;
   }
 #blueCircle {
-    position: absolute;
+    position: fixed;
     top: -6%;
     right: 0;
     width: 100%;
