@@ -548,7 +548,7 @@ a.tooltip {
     position: absolute;
     letter-spacing: 3px;
     font-weight: 500;
-    top: 85px;
+    top: 90%;
     font-size: 15px;
     left: 35px;
     font-family: "Roboto", sans-serif;
